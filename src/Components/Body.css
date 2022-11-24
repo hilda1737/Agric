@@ -1,0 +1,626 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap");
+*{
+  font-family: sans-serif;
+
+}
+
+@media only screen and (min-width: 1024px) {
+}
+.Apps{
+overflow-x: hidden;
+background: white;
+}
+
+.navbars{
+    display: flex;
+    margin-top: -2%;
+}
+.navbar-nav{
+    display: flex;
+    grid-gap: 110px;
+    margin-left: 540px;
+    text-decoration: none;
+    margin-top: 50px;
+}
+.header{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+.header:hover {
+    transition: all 0.5s ease green;
+
+  }
+.HEADER{
+    list-style: none;
+}
+.logo{
+    margin-left: -95%;
+    margin-top:35px;
+}
+.header button{
+    background-color: rgb(10, 208, 10);
+    color: white;
+    padding: 10px 30px 10px 30px;
+    border-radius: 10px;
+    border: none;  
+    font-size: 20px;
+    font-weight: 200px;
+    margin-left: -50%;
+    margin-top: -5%;
+
+}
+@media only screen and (min-width: 224px) {
+  .container header .header-nav-area #nav_container  {
+    display:flex;
+  }
+}
+
+ .App{
+  overflow-y: hidden;
+
+ }
+ .Apps{
+  background: white;
+ }
+ ul h2{
+    text-decoration: none;
+    font-weight: 700;
+    font-size: large;
+    color: green;
+    margin-top: 30px;
+  }
+  #contat{
+    margin-left: 850px;
+    margin-top: -3%;
+  }
+  #serves{
+    margin-left: 500px;
+    margin-top: 40px;
+  }
+  #abouts{
+    margin-left: 200px;
+    margin-bottom: -5%;
+   
+  }
+  #All{
+    background: rgb(100, 43, 43);
+
+  } 
+   .ul{
+    margin-top: -10;
+  }
+  .topnav h2 {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    margin-left: 00px;
+  }
+  h2:hover{
+    border-radius: 4px;
+    transition: all 0.2s ease-out ;
+    padding: 4px;
+  }
+
+  
+  .login{
+    color: white;
+    border-radius: 20px;
+    padding : 10px 40px;
+    margin-left: 900px;
+    margin-top: -150%;
+    background: rgb(33, 221, 58);
+    font-size: 20px;
+    text-decoration: none;
+  }
+ 
+  .Contact{
+    height: 800px;
+    margin-top: 800px;
+  }
+  .contacts{
+    margin-top: -26%;
+    margin-right: 700px;
+  }
+
+ 
+  
+
+.seed{
+    margin-left: 700px;
+    width: 500px;
+    height: 400px;
+    margin-top:100px;
+}
+.about{
+    margin-left: 100px;
+    margin-top: -32%;
+    text-align: left;
+    line-height: 2pc;
+    
+}
+.about h2{
+    color: rgb(12, 134, 12);
+    margin-right: 1000px;
+    font-size: 40px;
+   
+}
+.popabout{
+  background-color: rgb(14, 39, 4);
+  border-radius: 20px;
+  padding: 50px;
+  color: white;
+}
+button{
+    background-color: green;
+    border-radius: 15px;
+    color: white;
+    margin-left: 10px;
+    margin-top: 50px;
+    padding: 10px 40px;
+    border: none;
+}
+
+/* SERVICES */
+ 
+.cardone{
+  /* align-items: center;
+  place-items: center; */
+  background: white;
+  width: 480px;
+   height: 230px;
+  /* padding: -20px 10px 10px 10px; */
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+  
+}
+
+.cardtwo{
+  
+    background: white;
+    width: 480px;
+    height: 230px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9;
+    border-radius: 20px;
+    
+}
+.cardone h5{
+  margin-left: 40px;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  font-size: 15px;
+}
+.cardtwo h5 {
+  margin-left: 35px;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  font-weight: 10px;
+  font-size: 15px;
+}
+.cardtwo img{
+  width: 130px;
+  height: 130px;
+  margin-top: -0.25%;
+  margin-left: 30px;
+}
+.cardthree h5{
+  margin-left: 25px;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  font-size: 15px;
+
+}
+.cardthree img{
+  width: 130px;
+  height: 130px;
+  margin-top: -0.25%;
+  margin-left: 30px;
+}
+.cardfour h5{
+  margin-left: 33px;
+  margin-bottom: 20px;
+  margin-top: -5%;
+  font-size: 15px;
+}
+.cardfour img{
+  width: 130px;
+  height: 130px;
+  margin-top: -0.25%;
+  margin-left: 30px;
+
+}
+.cardone img{
+  width: 130px;
+  height: 130px;
+  margin-top: -0.25%;
+  margin-left: 30px;
+}
+.cardthree{
+  align-items: center;
+  place-items: center;
+  background: white;
+  width: 480px;
+  height: 230px;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 10px #dbd9d9;
+  border-radius: 20px;
+   
+}.cardfour{
+    background: white;
+    width: 480px;
+    height: 230px;
+    padding: 10px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9;
+    border-radius: 20px;
+}
+
+.btnss{
+  background-color:rgb(4, 119, 4);
+  padding-left:35px;
+  padding-top: 7px;
+  padding-right: 35px;
+  padding-bottom:7px ;
+  margin-left: 40px;
+  margin-top: -0.01%;
+
+}
+.popup1{
+  background-color: rgb(7, 36, 4);
+  color: white;
+  border-radius: 20px;
+}
+.btn2{
+    background-color:green;
+    padding-left:35px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-bottom:7px ;
+    margin-left: 40px;
+    margin-top: -0.01%;
+
+}
+.popup2{
+  background-color: rgb(18, 53, 5);
+  color: white;
+  border-radius: 20px;
+ 
+}
+.btn3{
+    background-color:green;
+    padding-left:35px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-bottom:7px ;
+    margin-left: 40px;
+    margin-top: -0.01%;
+
+}
+.popup3{
+  background-color: rgb(9, 63, 5);
+  color: white;
+  border-radius: 20px;
+  
+}
+.btn4{
+    background-color:green;
+    padding-left:35px;
+    padding-top: 7px;
+    padding-right: 35px;
+    padding-bottom:7px ;
+    margin-left: 40px;
+    margin-top: -0.01%;
+}
+.popup4{
+  background-color: rgb(28, 68, 5);
+  color: white;
+  border-radius: 20px;
+ 
+
+}
+.cards{
+  margin-top: 70px;
+    display: flex;
+    align-items: center;
+    grid-gap: 50px;
+    margin-left: 200px;
+}
+
+.services{
+    height: 600px;
+
+  }
+.services{
+    margin-top: 140px;
+    margin-right: 200px;
+}
+.services h4{
+  margin-left: 100px;
+  color: rgb(2, 2, 2);
+  font-size: 30px;
+  
+}
+
+.techno{
+   margin-left: 680px;
+   margin-top: 200px;
+   color: rgb(252, 249, 249);
+   padding-top: 50px;
+   font-size: 20px;
+   line-height: 2pc;
+}
+.techno p{
+  font-size: 17px;
+  line-height: 1.5pc;
+}
+
+.technology{
+    background: rgb(1, 62, 1);
+    height: 250px;
+    width: 1190px;
+    margin-left: 60px;
+    margin-top: -28%;
+}
+.technlogy{
+    border-radius: 20px;
+    margin-left: 100px;
+    margin-top: -65%;
+    width: 280px;
+    height: 200px;
+}
+
+/* HOW TO ORDER SEEDS */
+.Steps{
+margin-left:50px;
+margin-top: 100px;
+
+  }
+  .Steps h1{
+    color: green;
+    /* text-align: center; */
+    margin-left:330px ;
+  }
+.steps{
+    background: white;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;}
+.pn1{
+    width:120px;
+}
+    .steps h4{
+    margin-top:40px;
+    margin-left: 20px;
+    color: black;
+    font-weight: lighter;
+
+
+}    
+.step2{
+    background: white;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+
+}
+.pn2{
+    width:120px;
+}
+    .step2 h4{
+    margin-top:40px;
+    margin-left: 20px;
+    color: black;
+    font-weight: lighter;
+
+    
+
+    
+    
+
+}
+.order_seeds{
+    display: flex;
+    grid-gap:230px;
+    margin-top: 50px;
+    margin-left: 190px;
+}
+.pn3{
+    width:120px;
+}
+    .step3 h4{
+    margin-top:10px;
+    margin-left: 20px;
+    color: black;
+    font-weight: lighter;
+    
+   
+}
+.step3{
+    background: white;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+    margin-top: -30px;
+}
+.pn4{
+    width:120px;
+}
+    .step4 h4{
+    margin-top:40px;
+    margin-left: 20px;
+    color: black;
+    font-weight: lighter;
+
+}
+
+.step4{
+    background: white;
+    width: 250px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px 10px #dbd9d9 ;
+    margin-top: -30px;
+
+}
+.step4 img{
+  margin-left: 40px;
+
+}
+.step3 img{
+  margin-left: 40px;
+
+}
+.step2 img{
+  margin-left: 40px;
+
+}
+.steps img{
+  margin-left: 40px;
+
+}
+.order_seed2{
+    display: flex;
+    grid-gap:230px;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+/* contact us */
+.designs{
+    margin-top: 100px;
+    width: 1300px;
+    height: 400px;
+}
+.contacts{
+  margin-left: 100px;
+
+}
+
+.contacts h1{
+    margin-top: -33%;
+    margin-left: 20px;
+}
+#names{
+    border-radius: 20px;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+    border: none;
+    width:300px;
+}
+#email{
+    border-radius: 20px;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 5px 5px 5px 5px #dbd9d9;
+    border: none;
+    width:300px;
+    
+}
+#phoneNumbers{
+    border-radius: 20px;
+    padding: 10px 20px 10px 40px;
+    box-shadow: 5px 5px 5px 5px #d6d5d5;
+    border: none;
+    width:300px;
+}
+#message{
+    border-radius: 20px;
+    padding: 10px 20px 80px 40px;
+    box-shadow: 5px 5px 5px 5px #d3d1d1;
+    border: none;
+    width:300px;
+}
+.send{
+    background-color: green;
+    border-radius: 20px;
+    padding-left:35px;
+    padding-top: 3px;
+    padding-right: 35px;
+    padding-bottom:3px ;
+    margin-left: 200px;
+}
+
+
+/* FOOTER */
+
+
+.footer{
+    background: rgb(1, 69, 1);
+    height: 130px;
+    width: 1300px;
+    margin-top: -20%;
+   
+}
+.location{
+    margin-left: 990px;
+    margin-top: -8%;
+    color: white;
+    /* text-align: left;
+    */
+}
+.location h3 {
+    margin-bottom: 10px;
+    margin-left: 5px;
+   
+}
+.location h4 {
+  margin-bottom: 10px;
+  margin-left: 5px;
+ 
+}
+.contacts_footer{
+    margin-left:70px;
+    margin-top: 220px;
+    color: white;
+}
+.contacts_footer h3{
+    margin-left: 70px;
+    margin-top: 200px;
+    padding-top: 15px;
+    
+}
+
+
+.mapouter
+    {position:relative;
+    text-align:right;
+    margin-left: 650px;
+    margin-top: -32%;
+}
+
+.gmap_canvas {
+    overflow:hidden;
+    background:none!important;
+    height:500px;width:600px;}
+
+    .map {
+        margin-left: 600px;
+        margin-top: -32%;
+        }
+
+        .top-btn-position{
+            position: fixed;
+            bottom: 15px;
+            right: 20px;
+          }
+          .top-btn-position{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            border: 2px solid rgb(81, 83, 81);
+            background-color: white;
+            color: rgb(18, 245, 18);
+            cursor: pointer;
+          }
+          .top-btn-position:hover{
+            animation: none;
+            background-color: #333;
+            color: white;
+          }
