@@ -81,7 +81,7 @@ function Apps() {
       <div ref={about}className='about'>
     
 
-               <h2>AGRIACE</h2> 
+               <h2>AGRIC</h2> 
                <p>AgriAce is a technology company
                 that simplifies the purchases of 
                 <br></br>
